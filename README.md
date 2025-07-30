@@ -17,12 +17,19 @@ Traditional supervised IDSs rely on large, centrally collected labeled datasets.
 ## 📁 Project Structure
 
 FL_RL/
+
 ├── rl_fl_client.py # Federated RL client using DQN + replay buffer
+
 ├── rl_fl_server.py # Central FL server with Flower + evaluation logic
+
 ├── rl_model.py # DQN architecture, replay buffer, FL parameter utilities
+
 ├── data.py # UNSW-NB15 data preprocessing, partitioning, loading
+
 ├── run_fl_ids.bat # Windows launcher script to start clients/server
+
 ├── dataset/ # Folder containing UNSW-NB15 CSV files (10% subset)
+
 └── Results.docx # Evaluation results from a 50-round training session
 
 ---

@@ -58,7 +58,7 @@ Training uses ε-greedy exploration and experience replay.
 ## ⚙️ How It Works
 
 1. **Clients**:
-   - Train local DQN agents with episodic updates.
+   - Train local DDQN agents with episodic updates.
    - Share updated Q-network weights with the server.
    - Evaluate locally on held-out validation data.
 

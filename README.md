@@ -1,6 +1,6 @@
 # Federated Reinforcement Learning for Intrusion Detection (FL-RL-IDS)
 
-This project implements a **Federated Learning (FL)**-based **Reinforcement Learning (RL)** Intrusion Detection System (IDS) using the [Flower](https://flower.dev) framework and Deep Q-Networks (DQN). It operates across multiple simulated clients, each training on non-IID subsets of the UNSW-NB15 dataset, and aggregates learned policies on a central server.
+This project implements a **Federated Learning (FL)**-based **Reinforcement Learning (RL)** Intrusion Detection System (IDS) using the [Flower](https://flower.dev) framework and Double Deep Q-Networks (DDQN). It operates across multiple simulated clients, each training on non-IID subsets of the UNSW-NB15 dataset, and aggregates learned policies on a central server.
 
 ---
 
